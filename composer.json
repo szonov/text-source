@@ -1,0 +1,20 @@
+{
+    "name": "szonov/text-source",
+    "description": "Reading texts from different sources",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Zonov",
+            "email": "sergey@zonov.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.1"
+    },
+    "autoload": {
+        "psr-4" : {
+            "SZonov\\Text\\Source\\" : "src/"
+        }
+    }
+}
