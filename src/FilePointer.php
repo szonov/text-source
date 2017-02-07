@@ -54,7 +54,7 @@ class FilePointer implements SourceInterface {
      */
     public function getLine()
     {
-        return (feof($this->fp)) ? false : rtrim(fgets($this->fp, $this->lineReadLength), "\r\n");
+        return (feof($this->fp)) ? false : fgets($this->fp, $this->lineReadLength);
     }
 
     /**
